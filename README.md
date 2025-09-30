@@ -1,14 +1,33 @@
-# Mood to Quote API 🎭
+# 🎭 Mood to Quote API
 
-A simple Spring Boot project that returns random quotes based on your mood.
+A lightweight **Spring Boot** project that returns random quotes based on your mood.  
+Built to brush up backend fundamentals and ship something small but complete 🚀  
 
-## 🚀 How to Run
+---
+
+## ✨ Features
+- Returns a random quote for moods: **happy, sad, stressed, motivated**  
+- Simple REST API using `@RestController` and `@GetMapping`  
+- Randomized responses so every call feels fresh  
+- Easy to run locally (just Maven + Spring Boot)  
+
+---
+
+## 🛠️ Tech Stack
+- Java 17  
+- Spring Boot (Web)  
+- Maven  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
-mvn spring-boot:run
-GET /quote?mood=happy
-→ "Happiness is not by chance, but by choice."
+git clone https://github.com/adi-y/Mood-to-Quote.git
+cd Mood-to-Quote
 
-GET /quote?mood=stressed
-→ "Take a deep breath, and let it go."
+mvn spring-boot:run
+
+http://localhost:8080
 ```
-![Mood to Quote API in Postman](docs/screenshot.png)
